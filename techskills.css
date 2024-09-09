@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sidebar {
+    position: absolute;
+    background-color: #382bf0;
+    width: 300px;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 10px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    color: beige;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: beige;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(191, 69, 94);
+}
+
+.main {
+    background-color: #281a1a;
+    text-align: right;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebarGo {
+    transform: translate(-440px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.hamberg {
+    position:absolute;
+    cursor:pointer;
+    margin-left: 20px;
+}
+
+.cross {
+    position: absolute;
+    cursor: pointer;
+    padding-left: 260px;
+}
+
+.space {
+    margin-bottom: 0.5cm;
+}
+
